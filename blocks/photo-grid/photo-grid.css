@@ -1,0 +1,35 @@
+.photo-grid {
+  margin-bottom: 92px;
+  padding-right: 48px;
+  padding-left: 48px;
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  /* возможно тут надо задать жесткую ширину - 284px; */
+  gap: 16px;
+}
+
+@media (max-width: 1279px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .photo-grid {
+    margin-bottom: 88px;
+    padding-right: 24px;
+    padding-left: 24px;
+    max-width: 928px;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo-grid {
+    margin-bottom: 64px;
+    padding-right: 16px;
+    padding-left: 16px;
+    gap: 12px;
+  }
+}

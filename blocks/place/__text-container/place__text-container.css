@@ -1,0 +1,10 @@
+.place__text-container {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .place__text-container {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}

@@ -1,0 +1,24 @@
+.footer {
+  padding: 0 48px 24px;
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #fff;
+}
+
+@media (max-width: 1023px) {
+  .footer {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    display: block;
+    /* или вместо этого flex-direction: column */
+    padding-right: 118px;
+    padding-left: 16px;
+  }
+}
