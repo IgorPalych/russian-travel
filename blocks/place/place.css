@@ -9,6 +9,8 @@
   column-gap: 40px;
   row-gap: 48px;
   font-family: 'Inter', 'Arial', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   color: #fff;
 }
 
@@ -33,6 +35,7 @@
 
 @media (max-width: 767px) {
   .place {
+    margin-bottom: 50px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(1, auto);
     grid-template-areas: "title"

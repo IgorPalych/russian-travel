@@ -4,6 +4,8 @@
   padding-left: 48px;
   max-width: 1184px;
   font-family: 'Inter', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   color: #fff;
 }
 
